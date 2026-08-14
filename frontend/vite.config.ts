@@ -7,7 +7,7 @@ export default defineConfig({
     // Bind to all interfaces: IPv6-only loopback binding is unreachable
     // when a VPN with a TUN interceptor is active.
     host: '0.0.0.0',
-    port: 5173,
+    port: 8080,
     proxy: {
       '/api': {
         target: 'http://localhost:3000',
