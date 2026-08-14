@@ -8,7 +8,7 @@
 docker compose up --build
 ```
 
-Можно просто перейти по папкам frontend, backend и запустить через npm run dev.
+Можно просто перейти по папкам frontend, backend установить зависимости через npm install и запустить через npm run dev.
 
 Фронт будет на http://localhost:8080, api на 3000.
 
